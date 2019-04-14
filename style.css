@@ -1,0 +1,106 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, lightblue, lightgreen); /* Standard syntax (must be last) */
+
+}
+
+h1 {
+  color: grey;
+}
+h3 {
+  
+  color: green;
+  font-size: 200px;
+  text-align:center;
+  height: 350px;
+  font-family: Sans;
+    
+/*background-image:url(https://www.mile.ie/wp-content/uploads/2017/11/3.jpg);*/
+}
+
+h4{ 
+  text-align: justify;
+  padding-left: 145px;
+  padding-right: 145px;
+  font-family: Sans;
+  font-size:35px;
+  color:white;  
+}
+
+
+h6{
+  font-size:40px;
+  color: white;
+  
+background-image:url(https://cdn.glitch.com/56724725-765e-456a-8d32-5ea7caaffd82%2Fthumbnails%2Fimage.png?1554056061349);
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  background-image:url(https://cdn.glitch.com/56724725-765e-456a-8d32-5ea7caaffd82%2Fburger_menu.png?1555263756479);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 80px;
+  text-align: right;
+  color: white;
+  width: 195px;
+  padding: 25px;
+  font-size: 20px;
+  border: 1px;
+}
+
+lst.a{
+  list-style-type: circle
+}
+
+miniheader{
+  font-size: 55px;
+  font-family: Arial;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 110px;
+}
